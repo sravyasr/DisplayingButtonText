@@ -29,7 +29,9 @@ public class MainActivity extends AppCompatActivity {
         tv8 = findViewById(R.id.Chips);
         tv9 = findViewById(R.id.Kurkure);
 
-
+// getting the key value pairs by using stringextra()
+        
+        
         String s = getIntent().getStringExtra("key");
         tv.setVisibility(View.VISIBLE);
         String s1 = getIntent().getStringExtra("choco");
